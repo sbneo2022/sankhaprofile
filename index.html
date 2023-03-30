@@ -30,6 +30,7 @@
       }
 
       body {
+        overflow-x: hidden;
         display: flex;
         width: 100vw;
         min-height: 100vh;
@@ -98,6 +99,12 @@
         border-radius: 1px;
         margin-left: 0.5rem;
       }
+
+      .fixed-links {
+        position: fixed;
+        bottom: 1rem;
+        right: 1rem;
+      }
     </style>
   </head>
   <body>
@@ -111,51 +118,45 @@
       <div class="profile-info">
         <h1 class="name">Dr. Sankha Banerjee</h1>
 
-        <div class="links">
-          <a
-            href="https://www.linkedin.com/in/sankha-banerjee-8a04419/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <img class="icon" src="/icons/linkedin.svg" alt="Linkedin" />
-          </a>
-          <a
-            href="https://twitter.com/BanerjeSankha"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <img class="icon" src="/icons/twitter.svg" alt="Twitter" />
-          </a>
-          <a
-            href="https://medium.com/@sankha80"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <img class="icon" src="/icons/medium.svg" alt="Medium" />
-          </a>
-          <a
-            href="https://github.com/sbneo2022"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <img class="icon" src="/icons/github.svg" alt="Github" />
-          </a>
-          <a
-            href="https://discordapp.com/users/689998714085048437"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <img class="icon" src="/icons/discord.svg" alt="Discord" />
-          </a>
-          <a
-            href="https://substack.com/profile/4270584-sankha-banerjee"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <img class="icon" src="/icons/substack.svg" alt="Substack" />
-          </a>
-        </div>
+        <div class="links"></div>
       </div>
+    </div>
+
+    <div class="fixed-links">
+      <a
+        href="https://www.linkedin.com/in/sankha-banerjee-8a04419/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img class="icon" src="/icons/linkedin.svg" alt="Linkedin" />
+      </a>
+      <a
+        href="https://twitter.com/BanerjeSankha"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img class="icon" src="icons/twitter.svg" alt="Twitter" />
+      </a>
+      <a href="https://medium.com/@sankha80" target="_blank" rel="noreferrer">
+        <img class="icon" src="icons/medium.svg" alt="Medium" />
+      </a>
+      <a href="https://github.com/sbneo2022" target="_blank" rel="noreferrer">
+        <img class="icon" src="icons/github.svg" alt="Github" />
+      </a>
+      <a
+        href="https://discordapp.com/users/689998714085048437"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img class="icon" src="icons/discord.svg" alt="Discord" />
+      </a>
+      <a
+        href="https://substack.com/profile/4270584-sankha-banerjee"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img class="icon" src="icons/substack.svg" alt="Substack" />
+      </a>
     </div>
     <main>
       <h2 class="section-header">About</h2>
