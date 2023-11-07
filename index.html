@@ -65,6 +65,10 @@
         margin-bottom: 1rem;
       }
 
+      section {
+        margin-bottom: 2rem;
+      }
+
       .divider {
         width: 100%;
         height: 1px;
@@ -105,6 +109,27 @@
         bottom: 1rem;
         right: 1rem;
       }
+
+      .codebases-list {
+        margin-left: 1rem;
+      }
+
+      .video-container {
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+        padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+      }
+
+      .video {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+      }
     </style>
   </head>
   <body>
@@ -114,7 +139,7 @@
       </div>
     </header>
     <div class="profile">
-      <img class="profile-pic" src="/profile.jpg" alt="Profile" />
+      <img class="profile-pic" src="profile.jpg" alt="Profile" />
       <div class="profile-info">
         <h1 class="name">Dr. Sankha Banerjee</h1>
 
@@ -159,116 +184,140 @@
       </a>
     </div>
     <main>
-      <h2 class="section-header">About</h2>
+      <h2 class="section-header">About me</h2>
       <div class="divider"></div>
       <section>
         <p>
-          Sankha finished his doctoral thesis applying machine learning to
-          non-linear dynamical systems from
-          <a href="https://www.mit.edu/">MIT</a>. He finished his finance degree
-          from the Sloan School of Management at
-          <a href="https://www.mit.edu/">MIT</a>.
+          Welcome to my website. I am Sankha, serving as the Head of Product
+          Strategy at
+          <a href="https://babylonchain.io/" target="_blank">BabylonChain.io</a
+          >. My expertise lies in using economic modeling to forge strategic
+          partnerships, and crafting go-to-market strategies for Babylon's suite
+          of products. As a protocol architect, I am devoted to solving
+          challenging problems and building products within the
+          <a href="https://cosmos.network/" target="_blank">Cosmos</a> and
+          <a href="https://arbitrum.io/stylus" target="_blank">Arbitrum</a>
+          ecosystems.
         </p>
+      </section>
+
+      <h2 class="section-header">Transformative Blockchain Projects</h2>
+      <div class="divider"></div>
+      <section>
         <p>
-          During his PhD he focussed on using supercomputing facilities
-          available to <a href="https://www.mit.edu/">MIT</a> researchers, for
-          the first time to simulate a
-          <a
-            href="https://www.cambridge.org/core/journals/journal-of-fluid-mechanics/article/abs/threedimensional-effects-on-flag-flapping-dynamics/A9E2A95E4193D8052AF56A612889D8B7"
-          >
-            three-dimensional flag and derive its analytical constraints on
-            stability </a
-          >. During his PhD, Sankha published
-          <a
-            href="https://www.tandfonline.com/doi/abs/10.1080/14685240701506896?role=button&needAccess=true&journalCode=tjot20"
-          >
-            10 peer review journals in the field of Turbulence incorporating
-            computer graphics and invariant theory influencing multiple
-            references
-          </a>
-          from
-          <a
-            href="https://www.annualreviews.org/doi/10.1146/annurev-fluid-010518-040547"
-          >
-            NASA.
-          </a>
+          I played an initial role as a protocol designer/implementer for a
+          groundbreaking project
+          <a href="https://thorchain.org/" target="_blank">Thorchain</a>. I
+          designed the arbitrage bot to balance
+          <a href="https://thorchain.org/" target="_blank">Thorchain</a> &
+          <a href="https://www.binance.com/" target="_blank">Binance</a>
+          (BepSwap) AMM prices and contributed to the foundation for the AMM
+          design we know today. The co-founders of Thorchain made me take the
+          lead investor role and design the un-lock of seed investors in
+          deploying the tokens to secure the
+          <a href="https://thorchain.org/" target="_blank">Thorchain</a> network
+          (Thornodes). These contributions shaped my profound understanding of
+          the Cosmos SDK. My initial $500K investment has astoundingly grown to
+          over $120 million.
         </p>
 
         <p>
-          <b>Major papers:</b>
-          <a href="https://mit.academia.edu/SankhaBanerjee">
-            https://mit.academia.edu/SankhaBanerjee</a
-          >.
+          I served as a key member of the
+          <a href="https://nibiru.fi/" target="_blank">NibiruChain</a> team,
+          where I contributed to the economic framework and the original concept
+          of the DeFi hub. Identified and invested in early stage high value
+          projects in
+          <a href="https://cosmos.network/" target="_blank">Cosmos</a> like
+          <a href="https://www.kava.io/" target="_blank">KAVA</a>,
+          <a href="https://www.bandprotocol.com/" target="_blank">BAND</a>, and
+          <a href="https://akash.network/" target="_blank">AKASH</a>.
         </p>
+      </section>
+
+      <h2 class="section-header">Market Making and High-Frequency Trading</h2>
+      <div class="divider"></div>
+      <section>
         <p>
-          Current passion is in designing event driven Systems for
-          high-frequency market making. Sankha operates an inhouse event-driven
-          liquidity-providing trading strategy at ultra-low latency while
-          maintaining a relatively neutral position on the top crypto-exchanges
-          and a major DEX. The plan is to release the whitepaper, and
-          open-source the system for community development from like minded
-          researchers and traders. Currently the code is used with some
-          researchers from MIT and Harvard to investigate the effect of
-          cancellations on market quality and the agent's profitability on
-          crypto-exchanges.
+          I spent 3 years as a High-Frequency Trading quant for
+          <a href="https://www.ldc.com/" target="_blank">Louis Dreyfus</a>,
+          <a href="https://www.bamfunds.com/" target="_blank"
+            >Balyasny Asset Management</a
+          >, and
+          <a href="https://www.blueridgecapital.com/" target="_blank"
+            >Blue Ridge Capital</a
+          >
+          trading commodities such as metals, livestock, “ags”, “soft”,
+          electricity. Managed a $150M portfolio as the CEO of
+          <a href="https://www.credencelimited.com/" target="_blank"
+            >Credence Capital</a
+          >, where I led blockchain efforts. During this time, I led a team to
+          manage cryptocurrency market-making and was a designated market-maker
+          (top 5 in terms of volume) for USDT perps on
+          <a href="https://www.binance.com/" target="_blank">BINANCE</a>.
         </p>
+      </section>
+
+      <h2 class="section-header">Academic</h2>
+      <div class="divider"></div>
+      <section>
         <p>
-          First few years at
-          <a href="https://www.cci.com">
-            Castleton Commodities International
-          </a>
-          developing and implementing algorithms on electricity, commodity,
-          forex, and interest-rate-derivative markets on NYSE/CME. Work in
-          cryptocurrency started in 2014; focused on implementing a machine
-          learning based real-estate valuation and buying of assets on
-          <a href="https://algorand.com">Algorand blockchain </a>. Spent 3 years
-          working as a fully systematic quant/trader at family offices,
-          <a href="https://www.linkedin.com/company/blue-ridge-capital/">
-            Blue Ridge Investments
-          </a>
-          and
-          <a href="https://www.linkedin.com/company/eastmore-group/">
-            EastMore Group
-          </a>
-          building a global macro book operating at 2.0 sharpe and 3% drawdown.
+          With a Ph.D. from
+          <a href="https://www.mit.edu/" target="_blank">MIT</a>, focused on the
+          research extending the frontiers of machine learning applications to
+          nonlinear dynamical systems. Using
+          <a href="https://www.mit.edu/" target="_blank">MIT</a>'s
+          supercomputing facilities to simulate three-dimensional flags was not
+          only a first in such applications but also established new benchmarks
+          for analytical constraints on stability. The PhD work resulted in 10
+          peer-reviewed publications, in Turbulence—a subject that caught the
+          attention of organizations like NASA. I have a Master's in Finance
+          from the <a href="https://www.mit.edu/" target="_blank">MIT</a>'s
+          <a href="https://mitsloan.mit.edu/" target="_blank">Sloan School</a>
+          of Management.
         </p>
-        <p>
-          In 2017, moved to crypto full-time and spent a year building/executing
-          the market-making algorithms for BITMEX/BINANCE on perp markets,
-          becoming one of the top market makers with a $1 billion weekly volume.
-          In 2020, was appointed the CEO of
-          <a href="https://www.credencelimited.com">Credence Limited</a>, given
-          a 4 million dollar portfolio to invest in early stage L1 protocols
-          focused on DeFi. The approach for portfolio construction was based on
-          heavy infrastructure, codebase diligence, with specific focus on the
-          <a href="https://cosmos.network"> Cosmos Blockchain </a>.
-        </p>
-        <p>
-          Sankha contributed to the initial design of the arbitrage framework
-          between the
-          <a href="https://coinmarketcap.com/exchanges/thorchain-bep20/">
-            BEP20 RUNE
-          </a>
-          and the
-          <a href="https://www.binance.com/en">Binance</a>, leading him to
-          become the lead investor of
-          <a href="https://thorchain.org">Thorchain</a>. Sankha has been focused
-          on helping with the growth of DeFi the Cosmos ecosystem, with projects
-          namely <a href="https://thorchain.org">Thorchain</a>,
-          <a href="https://bandprotocol.com">Band</a>,
-          <a href="https://www.kava.io">Kava</a>, and
-          <a href="https://akash.network">Akash</a>
-          as seed investors from 2018. Currently, he is the protocol architect
-          of NIBIRU (decentralized perpetual trading platform with its
-          stablecoin and DEX) on Cosmos.
-        </p>
+      </section>
+
+      <h2>My talks</h2>
+      <div class="divider"></div>
+
+      <section>
+        <div class="video-container">
+          <iframe
+            width="1080"
+            height="607"
+            src="https://www.youtube.com/embed/kqckV0xngrM"
+            title="Keynote by Babylon&#39;s Dr. Sankha Banerjee - Bitcoin Unleashed 2023"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+            class="video"
+          ></iframe>
+        </div>
+      </section>
+
+      <h2>My codebases</h2>
+      <div class="divider"></div>
+
+      <section>
+        <ul class="codebases-list">
+          <li>
+            <a href="https://github.com/sbneo2022/osmosispy" target="_blank"
+              >Osmosis py-sdk</a
+            >
+          </li>
+          <li>
+            <a href="https://github.com/sbneo2022/thorchainpy" target="_blank"
+              >Thorchain py-sdk</a
+            >
+          </li>
+        </ul>
       </section>
 
       <h2 class="section-header">Contacts</h2>
       <div class="divider"></div>
       <section>
         I'm most responsive via email
-        <a href="mailto:sankha80@gmail.com">sankha80@gmail.com</a>
+        <a href="mailto:sankha@babylonchain.io">sankha@babylonchain.io</a>
       </section>
 
       <div class="divider"></div>
